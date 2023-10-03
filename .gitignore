@@ -1,1 +1,2 @@
-credentials.php
+#ignore db credentials and address
+#config/db.php
