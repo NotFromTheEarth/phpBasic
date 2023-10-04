@@ -1,6 +1,6 @@
 <?php
     function make_connection() {
-        include("config/db.php");
+        include("../config/db.php");
         $mysqli = new mysqli($hostname, $username, $password, $database);
      
         if($mysqli->connect_error) 
