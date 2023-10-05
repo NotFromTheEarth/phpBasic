@@ -19,6 +19,7 @@
 <body>
     <?php
     ?>
-    <a href="panel.php?request=users" method="get">List Users</a>
+    <a href="panel.php?request=users" method="get">List Users</a><br>
+    <a href="../index.php">Go back</a><br>
 </body>
 </html>

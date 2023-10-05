@@ -3,6 +3,8 @@
     {
         include_once("../db/dbaction.php");
         addUser($_POST['username'], $_POST['password'], $_POST['nickname']);
+        echo "Success.<br>";
+        echo "Welcome, ". $_POST['nickname'];
     }
     else
     {
